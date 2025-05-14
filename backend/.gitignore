@@ -1,0 +1,7 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# FastAPI and Python cache ignores
+__pycache__/
+*.pyc
+*.pyo
+instance/
+.env
