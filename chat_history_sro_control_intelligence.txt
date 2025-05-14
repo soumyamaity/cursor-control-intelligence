@@ -1,0 +1,49 @@
+OneSRO Control Intelligence Web Application - Chat History
+====================================================
+
+**Project Requirements & Features:**
+------------------------------------
+- Document upload & management (upload, list, delete, label)
+- Document consolidation (merge multiple docs)
+- Intelligent control/requirement creation (AI/NLP suggestions, label multi-select)
+- Relationship mapping (documents, labels, controls, requirements, standards, policies; interactive, vis-network)
+- Uniform language/normalization (suggest consistent phrasing)
+- RAG chatbot (context-aware, document-grounded Q&A)
+- Actionable insights (gaps, overlaps, compliance risks)
+- Modern, user-friendly UI (Material UI, tabs, responsive)
+- Extensible data model (CRUD for standards, policies, controls, requirements, relationships)
+- Backend: FastAPI, PostgreSQL, S3
+
+**Tech Stack:**
+---------------
+- Frontend: React, Material UI, vis-network
+- Backend: FastAPI
+- Database: PostgreSQL
+- Storage: S3
+
+**Implemented Features (as of this chat):**
+-------------------------------------------
+- Scaffolded frontend and backend
+- FastAPI endpoints for document upload, listing, deletion, label management
+- React components for file upload, document listing, document consolidation, control/requirement creation, relationship mapping, chatbot, and insights
+- Dell-like UI with Material UI, tabbed navigation, and refined UX
+- PATCH requests for label saving use Pydantic model; frontend re-fetches and displays backend data
+- Mapping tab visualizes files, labels, controls, requirements, standards, policies as nodes; mapping level selection; dummy data for non-document objects; dynamic, interactive mapping
+- All terminology and UI elements match user requirements
+- App supports dynamic, interactive mapping of all compliance objects, with real document/label data and extensible mock data for other objects
+
+**Recent User Queries:**
+-----------------------
+- "do you remember all other features to be added?"
+- "save this chat in a file in the project root folder"
+- "now clean up my root folder"
+- "why do I need nodemodules package-lock and package file?"
+- "but they are in frontend folder. Why again at root?"
+- "now create chat_history_sro_control_intelligence.txt again"
+
+**Backend Log Excerpt:**
+------------------------
+(PATCH/GET requests for /documents and /labels, all 200 OK)
+
+---
+This file contains a summary of the chat and project status as of the latest user request, for the OneSRO Control Intelligence platform. 
